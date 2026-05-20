@@ -2,9 +2,13 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Selected publications and writing.
+description: Journal articles, conference papers, presentations, and posters.
 nav: true
 nav_order: 2
 ---
 
-Publication details will be added here once the bibliography is finalized.
+<div class="publications">
+
+{% bibliography %}
+
+</div>

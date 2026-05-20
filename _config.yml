@@ -6,8 +6,7 @@ title: Richard Mahuze # the website title (if blank, full name will be used inst
 first_name: Richard
 middle_name:
 last_name: Mahuze
-contact_note: >
-  The best way to reach me is through GitHub or the links below.
+contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal website for Richard Mahuze.
 footer_text: >

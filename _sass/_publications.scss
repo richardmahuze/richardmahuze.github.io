@@ -186,3 +186,40 @@
 .citation-number {
   color: var(--global-theme-color);
 }
+
+.abbr abbr {
+  &.badge-arxiv {
+    background-color: #b31b1b !important;
+    color: #ffffff !important;
+  }
+
+  &.badge-journal {
+    background-color: #00acc1 !important;
+    color: #ffffff !important;
+  }
+
+  &.badge-conf {
+    background-color: #2e7d32 !important;
+    color: #ffffff !important;
+  }
+
+  &.badge-poster {
+    background-color: #f57c00 !important;
+    color: #ffffff !important;
+  }
+
+  &.badge-preprint {
+    background-color: #6a1b9a !important;
+    color: #ffffff !important;
+  }
+
+  &.badge-workshop {
+    background-color: #5d4037 !important;
+    color: #ffffff !important;
+  }
+
+  &.badge-talk {
+    background-color: #1565c0 !important;
+    color: #ffffff !important;
+  }
+}

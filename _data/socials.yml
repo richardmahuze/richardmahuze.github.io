@@ -1,9 +1,5 @@
-# this file contains the social media links and usernames of the author
-# the socials will be displayed in the order they are defined here
-# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+email: ram552@cornell.edu
+linkedin_username: richardmahuze
+scholar_userid: 71c33jgAAAAJ
 github_username: richardmahuze
-rss_icon: true # comment this line to hide the RSS icon
-# cv_pdf: # path to your CV PDF file
-# email: # your email address
-# scholar_userid: # your Google Scholar ID
-# linkedin_username: # your LinkedIn username
+rss_icon: true

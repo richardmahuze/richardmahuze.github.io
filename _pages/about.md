@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle:
+subtitle: Demand Flexibility · Privacy · Resource Allocation
 keywords: PhD Candidate · Demand Flexibility · Virtual Power Plants · Electricity Markets · Grid Modernization
 address:
   - Upson Hall, Room 348
@@ -30,12 +30,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I study demand flexibility, virtual power plants, electricity markets, and grid modernization as a PhD candidate in Mechanical Engineering at Cornell University. I work with [Prof. K. Max Zhang](https://www.duffield.cornell.edu/people/k-max-zhang/) in the Energy and the Environment Research Laboratory.
+I'm a PhD candidate in Mechanical Engineering at Cornell University. I work with [Prof. K. Max Zhang](https://www.duffield.cornell.edu/people/k-max-zhang/) in the Energy and the Environment Research Laboratory, where I study demand flexibility, privacy, and resource allocation in modern electricity systems.
 
-## Background
+I'm originally from Papua, Indonesia. I did my undergrad at Oregon Tech. I worked a couple of years in the public sector before continuing to Cornell.
 
-I come from Papua, Indonesia.
-
-## Outside Academia
-
-Outside of academia, I enjoy photography and music.
+Outside the lab, I enjoy photography and music.

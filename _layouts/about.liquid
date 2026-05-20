@@ -11,10 +11,15 @@ layout: default
         {{ site.title }}
       {% endif %}
     </h1>
-    {% if page.keywords %}
-      <p class="desc">{{ page.keywords }}</p>
-    {% elsif page.subtitle %}
+    {% if page.subtitle %}
       <p class="desc">{{ page.subtitle }}</p>
+    {% elsif page.keywords %}
+      <p class="desc">{{ page.keywords }}</p>
+    {% endif %}
+    {% if site.data.socials.email %}
+      <p class="header-email">
+        <a href="mailto:{{ site.data.socials.email | encode_email }}">{{ site.data.socials.email | encode_email }}</a>
+      </p>
     {% endif %}
     {% if page.address %}
       <div class="address">

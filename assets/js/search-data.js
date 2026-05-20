@@ -16,7 +16,10 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "projects-personal-website",
+        },{id: "news-the-curtailment-credit-market-project-was-awarded-support-from-cornell-atkinson-s-innovation-for-impact-fund",
+          title: 'The Curtailment Credit Market project was awarded support from Cornell Atkinson’s Innovation for...',
+          description: "",
+          section: "News",},{id: "projects-personal-website",
           title: 'Personal website',
           description: "GitHub Pages site built with al-folio.",
           section: "Projects",handler: () => {

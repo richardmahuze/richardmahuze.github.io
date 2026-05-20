@@ -4,17 +4,10 @@ title: about
 permalink: /
 subtitle: Demand Flexibility · Privacy · Resource Allocation
 keywords: PhD Candidate · Demand Flexibility · Virtual Power Plants · Electricity Markets · Grid Modernization
-address:
-  - Upson Hall, Room 348
-  - Cornell University
-  - Ithaca, NY
-
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
-  more_info: >
-    <p>GitHub: <a href="https://github.com/richardmahuze">richardmahuze</a></p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page

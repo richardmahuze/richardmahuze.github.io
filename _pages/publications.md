@@ -9,6 +9,24 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography %}
+<h2>Journals</h2>
+
+{% bibliography --group_order ascending --query @*[abbr=Journal]* %}
+
+<h2>Conferences</h2>
+
+{% bibliography --group_order ascending --query @inproceedings* %}
+
+<h2>arXiv</h2>
+
+{% bibliography --group_order ascending --query @*[abbr=arXiv]* %}
+
+<h2>Posters</h2>
+
+{% bibliography --group_order ascending --query @*[abbr=Poster]* %}
+
+<h2>Presentations</h2>
+
+{% bibliography --group_order ascending --query @*[abbr=Talk]* %}
 
 </div>

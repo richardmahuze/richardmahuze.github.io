@@ -14,6 +14,15 @@ cv:
           - "Concentrations: demand flexibility, virtual power plants, and electricity markets."
 
     Publications:
+      - title: "The Potential Welfare Gains from Curtailment Trading Under Non-Firm Interconnection"
+        authors:
+          - Richard Mahuze
+          - Charlotte Gressel
+          - Ali Amadeh
+          - K. Max Zhang
+        journal: "arXiv preprint arXiv:2605.00690"
+        date: "2026"
+        doi: "10.48550/arXiv.2605.00690"
       - title: "Quantum-resistant homomorphic encryption for privacy-preserving demand flexibility and grid modernization: A systematized review"
         authors:
           - Richard Mahuze
@@ -54,6 +63,6 @@ cv:
       - bullet: '"Lessons Learned for Energy Policies in NTT: Affordability, Equity & Reliability Nexus." Oral presentation, 2025 IAPA Annual Conference and Congress.'
 
     Funding Received:
-      - bullet: "Cornell Atkinson Center for Sustainability -- EDF Climate and Innovation Fellowship, 2026."
+      - bullet: "Cornell Atkinson Center for Sustainability -- EDF Climate and Innovation Fellowship, co-authored proposal, awarded, 2026."
       - bullet: "NYSERDA -- Integrated Energy and Environmental Assessment of Large Loads in New York State, co-authored proposal, awarded, 2025."
       - bullet: "Indonesia Endowment Fund for Education (LPDP) Fellowship for Doctoral Studies, 2023 -- Present."

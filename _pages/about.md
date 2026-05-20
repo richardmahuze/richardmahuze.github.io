@@ -3,6 +3,11 @@ layout: about
 title: about
 permalink: /
 subtitle:
+keywords: PhD Candidate · Demand Flexibility · Virtual Power Plants · Electricity Markets · Grid Modernization
+address:
+  - Upson Hall, Room 348
+  - Cornell University
+  - Ithaca, NY
 
 profile:
   align: right
@@ -25,8 +30,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Welcome. I am Richard Mahuze, and this site is my home for selected work, projects, writing, and professional updates.
+I study demand flexibility, virtual power plants, electricity markets, and grid modernization as a PhD candidate in Mechanical Engineering at Cornell University. I work with [Prof. K. Max Zhang](https://www.duffield.cornell.edu/people/k-max-zhang/) in the Energy and the Environment Research Laboratory.
 
-This is an initial version of the site, built with the al-folio theme and hosted on GitHub Pages. More detailed biography, CV, publications, and project descriptions will be added as the content is finalized.
+## Background
 
-For now, the best place to find my public work is my [GitHub profile](https://github.com/richardmahuze).
+I come from Papua, Indonesia.
+
+## Outside Academia
+
+Outside of academia, I enjoy photography and music.

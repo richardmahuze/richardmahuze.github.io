@@ -25,6 +25,10 @@ nav_order: 2
 
 {% bibliography --group_order ascending --query @*[abbr=Poster]* %}
 
+<h2>Teaching</h2>
+
+{% bibliography --group_order ascending --query @*[abbr=Teaching]* %}
+
 <h2>Presentations</h2>
 
 {% bibliography --group_order ascending --query @*[abbr=Talk]* %}

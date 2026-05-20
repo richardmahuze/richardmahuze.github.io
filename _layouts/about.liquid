@@ -18,15 +18,8 @@ layout: default
     {% endif %}
     {% if site.data.socials.email %}
       <p class="header-email">
-        <a href="mailto:{{ site.data.socials.email | encode_email }}">{{ site.data.socials.email | encode_email }}</a>
+        <a href="mailto:{{ site.data.socials.email }}">{{ site.data.socials.email }}</a>
       </p>
-    {% endif %}
-    {% if page.address %}
-      <div class="address">
-        {% for line in page.address %}
-          <p>{{ line }}</p>
-        {% endfor %}
-      </div>
     {% endif %}
   </header>
 
@@ -47,6 +40,13 @@ layout: default
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
             cache_bust=true
           %}
+        {% endif %}
+        {% if page.address %}
+          <div class="address">
+            {% for line in page.address %}
+              <p>{{ line }}</p>
+            {% endfor %}
+          </div>
         {% endif %}
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
@@ -83,7 +83,41 @@ layout: default
     <!-- Social -->
     {% if page.social %}
       <div class="social">
-        <div class="contact-icons">{% social_links %}</div>
+        <div class="contact-icons">
+          {% if site.data.socials.email %}
+            <a href="mailto:{{ site.data.socials.email }}" title="email" aria-label="email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          {% endif %}
+          {% if site.data.socials.linkedin_username %}
+            <a
+              href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}/"
+              title="LinkedIn"
+              aria-label="LinkedIn"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          {% endif %}
+          {% if site.data.socials.scholar_userid %}
+            <a
+              href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}"
+              title="Google Scholar"
+              aria-label="Google Scholar"
+            >
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          {% endif %}
+          {% if site.data.socials.github_username %}
+            <a href="https://github.com/{{ site.data.socials.github_username }}" title="GitHub" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          {% endif %}
+          {% if site.data.socials.rss_icon %}
+            <a href="{{ '/feed.xml' | relative_url }}" title="RSS" aria-label="RSS">
+              <i class="fa-solid fa-rss"></i>
+            </a>
+          {% endif %}
+        </div>
 
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>

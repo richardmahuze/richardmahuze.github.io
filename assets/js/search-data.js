@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "publications",
-          description: "Selected publications and writing.",
+          description: "Journal articles, conference papers, presentations, and posters.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "A concise CV placeholder. Full details will be added as they are finalized.",
+          description: "Education, publications, presentations, posters, and funding received.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";

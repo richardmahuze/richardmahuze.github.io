@@ -23,7 +23,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a PhD candidate in Mechanical Engineering at Cornell University. I work with [Prof. K. Max Zhang](https://www.duffield.cornell.edu/people/k-max-zhang/) in the Energy and the Environment Research Laboratory, where I study demand flexibility, privacy, and resource allocation in modern electricity systems.
+I'm a PhD candidate in Mechanical Engineering at Cornell University. I work with [Prof. K. Max Zhang](https://www.duffield.cornell.edu/people/k-max-zhang/) in the Energy and the Environment Research Laboratory, where I study demand flexibility, privacy-preserving techniques, and resource allocation mechanisms in modern electricity systems.
 
 I'm originally from Papua, Indonesia. I did my undergrad at Oregon Tech. I worked a couple of years in the public sector before continuing to Cornell.
 

@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "Education, publications, presentations, posters, and funding received.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "projects-personal-website",
           title: 'Personal website',
           description: "GitHub Pages site built with al-folio.",

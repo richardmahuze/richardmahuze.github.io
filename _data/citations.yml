@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-07-22'
+  last_updated: '2026-09-02'
 papers:
   71c33jgAAAAJ:2osOgNQ5qMEC:
     citations: 0
     title: The Potential Welfare Gains from Curtailment Trading Under Non-Firm Interconnection
     year: '2026'
   71c33jgAAAAJ:d1gkVwhDpl0C:
-    citations: 0
+    citations: 1
     title: 'Quantum-resistant Homomorphic Encryption for Privacy-Preserving Demand Flexibility and Grid Modernization: A Systematized Review'
     year: '2026'
   71c33jgAAAAJ:u-x6o8ySG0sC:
@@ -14,6 +14,6 @@ papers:
     title: Encrypted Coordination for Distributed Building Thermal Control
     year: '2025'
   71c33jgAAAAJ:u5HHmVD_uO8C:
-    citations: 9
+    citations: 11
     title: Collaborative optimization framework for capacity planning of a prosumer-based peer-to-peer electricity trading community
     year: '2025'

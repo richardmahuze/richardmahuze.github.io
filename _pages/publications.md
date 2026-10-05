@@ -17,10 +17,6 @@ nav_order: 2
 
 {% bibliography --group_order descending --query @inproceedings* %}
 
-<h2>arXiv</h2>
-
-{% bibliography --group_order descending --query @*[abbr=arXiv]* %}
-
 <h2>Posters</h2>
 
 {% bibliography --group_order descending --query @*[abbr=Poster]* %}
